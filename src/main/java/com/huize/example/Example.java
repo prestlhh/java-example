@@ -9,8 +9,11 @@ public class Example{
 		System.out.println(a + "+" + b + "=" + add(a, b));
 	}
 	
-	public static add(int a, int b){
+	public static int add(int a, int b){
 		return a + b;	
 	}
 	
+	public static void print(String content){
+		System.out.println(content);
+	}
 }
