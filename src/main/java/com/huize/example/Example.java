@@ -7,10 +7,14 @@ public class Example{
 		int b = 6;
 		System.out.println("hello world!");
 		System.out.println(a + "+" + b + "=" + add(a, b));
+		System.out.println(say("world"));
 	}
 	
-	public static add(int a, int b){
+	public static int add(int a, int b){
 		return a + b;	
 	}
 	
+	public static String say(String name){
+		return "hello, " + name;	
+	}
 }
