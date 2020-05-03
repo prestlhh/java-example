@@ -7,18 +7,18 @@ public class Example{
 		int b = 6;
 		System.out.println("hello world!");
 		System.out.println(a + "+" + b + "=" + add(a, b));
-		System.out.println(say("world"));
+		System.out.println(merge("master"));
 	}
 	
 	public static int add(int a, int b){
 		return a + b;	
 	}
 	
-	public static void print(String content){
-		System.out.println(content);
-	}
-	
 	public static String say(String name){
 		return "hello, " + name;	
+	}
+	
+	public static void merge(String obj){
+		System.out.println("merge " + obj)
 	}
 }
