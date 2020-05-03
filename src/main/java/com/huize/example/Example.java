@@ -14,12 +14,11 @@ public class Example{
 		return a + b;	
 	}
 	
-<<<<<<< HEAD
 	public static void print(String content){
 		System.out.println(content);
-=======
+	}
+	
 	public static String say(String name){
 		return "hello, " + name;	
->>>>>>> origin/master
 	}
 }
