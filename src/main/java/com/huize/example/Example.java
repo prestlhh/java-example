@@ -21,4 +21,8 @@ public class Example{
 	public static String say(String name){
 		return "hello, " + name;	
 	}
+	
+	public static void pull(){
+		System.out.println("this is a pull method");
+	}
 }
