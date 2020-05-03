@@ -21,4 +21,8 @@ public class Example{
 	public static void merge(String obj){
 		System.out.println("merge " + obj)
 	}
+	
+	public static void pull(){
+		System.out.println("this is a pull method");
+	}
 }
