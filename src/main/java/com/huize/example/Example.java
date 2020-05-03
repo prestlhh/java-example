@@ -7,13 +7,19 @@ public class Example{
 		int b = 6;
 		System.out.println("hello world!");
 		System.out.println(a + "+" + b + "=" + add(a, b));
+		System.out.println(say("world"));
 	}
 	
 	public static int add(int a, int b){
 		return a + b;	
 	}
 	
+<<<<<<< HEAD
 	public static void print(String content){
 		System.out.println(content);
+=======
+	public static String say(String name){
+		return "hello, " + name;	
+>>>>>>> origin/master
 	}
 }
